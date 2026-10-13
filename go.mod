@@ -4,7 +4,7 @@ module github.com/ory/keto
 
 replace (
 	github.com/ory/keto/gen/go => ./gen/go
-	github.com/ory/x => ./oryx
+	github.com/ory/x => github.com/nbycomp/oryx v0.0.730-0.20261013084646-78696cd18011
 )
 
 require (
